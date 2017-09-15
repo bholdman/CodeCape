@@ -9,6 +9,16 @@ iframe #header {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+@media screen and (max-width: 576px) {
+    .codelabs-one-title {
+        font-size: .8em;
+        line-height: .83em;
+    }
+    #codelabs-slide{
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+}
 
 /* ==========================================================================
    .navbar
