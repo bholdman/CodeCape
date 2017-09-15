@@ -55,7 +55,8 @@
             <li><a id="codelabsone-link" href="www.marquettetech.org/codelabs.html">CODE LABS ONE</a></li>
             <!-- Temporary fix for jquery.nav.js link handling -->
 	    <script>
-	      $('#codelabsone-link').on("click", function(e) {
+	      var clo = document.getElementById('codelabsone-link');
+	      clo.addEventListener("click", function() {
 		window.location.href = "www.marquettetech.org/codelabsone.html" 
 	      });
             </script>
