@@ -6,8 +6,8 @@ iframe #header {
     display: none !important;
 }
 #codelabs-slide{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 @media screen and (max-width: 576px) {
     .codelabs-one-title {
