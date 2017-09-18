@@ -18,6 +18,18 @@ iframe #header {
       margin-top: 25px;
       margin-bottom: 25px;
     }
+    #codelabs-one-application-results{
+        padding-left: 0px;
+        width: 100%;
+    }
+    #codelabs-faq-question-list{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .ul-curriculum{
+        padding-left: 0px !important;
+        width: 100%;
+    }
 }
 
 /* ==========================================================================
