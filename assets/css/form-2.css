@@ -1,0 +1,12 @@
+/* Woo-Foo Form Styling */
+@media screen and (max-width: 576px) {
+    .left-label li div{
+        width: 100% !important;
+    }
+    .leftLabel .desc{
+        width: 100% !important;
+    }
+    input.medium, select.medium{
+        width: 100% !important;
+    }
+}
