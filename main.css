@@ -10,9 +10,18 @@ iframe #header {
   margin-bottom: 150px;
 }
 @media screen and (max-width: 576px) {
+    #apply .title-sections{
+        margin: 90px 0 10px !important;
+        text-align: center;
+    }
+    #apply{
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+        height: 40% !important;
+    }
     #apply .content{
         padding-top: 20px !important;
-        padding-bottom: 20px !important;
+        padding-bottom: 10px !important;
     }
     .codelabs-one-title {
         font-size: .8em;
@@ -44,6 +53,7 @@ iframe #header {
     .faq{
         margin-bottom: 0px;
     }
+   
 }
 
 
