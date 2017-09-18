@@ -30,6 +30,26 @@ iframe #header {
         padding-left: 0px !important;
         width: 100%;
     }
+    .hidden-sm-only{
+        display:none;
+    }
+   
+    .visible-sm-only{
+        display: inline !important;
+    }
+    .faq{
+        margin-bottom: 0px;
+    }
+}
+
+
+.faq{
+    margin-bottom: 30px;
+    line-height: 38px;
+}
+
+.visible-sm-only{
+    display: none;
 }
 
 /* ==========================================================================
