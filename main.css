@@ -46,14 +46,14 @@ iframe #header {
     .hidden-sm-only{
         display:none;
     }
-   
+
     .visible-sm-only{
         display: inline !important;
     }
     .faq{
         margin-bottom: 0px;
     }
-   
+
 }
 
 
@@ -811,6 +811,29 @@ blockquote {
     height: 75%;
 }
 
+#employer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  height: 40%;
+}
+
+#employer-vintage {
+  background: #252525 url('assets/img/apply-vintage.jpg');
+  z-index: -1;
+}
+
+#employer-vizient {
+  background: #252525 url('assets/img/apply-vizient.jpg');
+  z-index: -1;
+  background-position: left top !important;
+}
+
+#employer-codefilabs {
+  background: #252525 url('assets/img/apply-codefilabs.jpg');
+  z-index: -1;
+}
+
 .quote .parallax,
 .contact-detail {
     height: 450px;
@@ -1440,6 +1463,15 @@ section::after {
 
 .green .set-circle:before {
     background-color: #27ae60;
+}
+
+.orange,
+.orange .set-circle {
+  border-color: #ff3e00;
+}
+
+.orange .set-circle:before {
+  background-color: #ff3e00;
 }
 
 .set-title {
@@ -3221,7 +3253,7 @@ input[type="submit"] {
    ========================================================================== */
 
 .subfooter p {
-    margin: 0 0 18px 0;
+    margin: 0 0 32px 0;
 }
 
 .subfooter {
@@ -3304,6 +3336,112 @@ input[type="submit"] {
 :-ms-input-placeholder {
     color: #989898
 }
+
+
+/* ==========================================================================
+   Wufoo Form
+   ========================================================================== */
+
+    html.embed {
+      background-color: transparent;
+    }
+
+    .wufoo li.focused {
+      background-color: transparent;
+    }
+
+   .wufoo input.text, .wufoo textarea.textarea {
+     border: 1px solid #DDD;
+     background-color: #FFF;
+     border-radius: 4px;
+     background-image: none;
+     padding: 10px 4px;
+     font-family: 'Montserrat', sans-serif;
+     color: #555;
+     font-size: 16px;
+   }
+
+   .wufoo input.submit {
+     background-color: #72BE49;
+     color: #fcbc10;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+     font-size: .85rem;
+     text-transform: uppercase;
+     border-radius: 5px;
+     border-color: #fcbc10;
+     background-color: transparent;
+     padding: .7rem 1.5rem;
+     transition: all ease 0.3s;
+     cursor: pointer;
+   }
+
+   .wufoo input.submit:hover, .wufoo input.submit:focus {
+     color: #FFF;
+     background-color: #fcbc10;
+   }
+
+   .wufoo input.file {
+     padding-left: 0;
+     font-size: 14px !important;
+   }
+
+   .wufoo input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+     color: #999;
+   }
+   .wufoo input::-moz-placeholder { /* Firefox 19+ */
+     color: #999;
+   }
+   .wufoo input:-ms-input-placeholder { /* IE 10+ */
+     color: #999;
+   }
+   .wufoo input:-moz-placeholder { /* Firefox 18- */
+     color: #999;
+   }
+
+   .wufoo label {
+    display: none;
+   }
+
+   .wufoo #fo41li202 label {
+     display: block !important;
+   }
+
+   .wufoo .likert input {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+   }
+
+  .wufoo .likert label {
+    display: inline !important;
+  }
+
+  .likert thead td {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .wufoo .likert tbody tr:hover, .wufoo .likert tbody tr:focus {
+    background-color: #fcbc10 !important;
+  }
+
+  #saveForm {
+    margin: 0 auto;
+  }
+
+   @media (max-width: 991px) {
+
+     .wufoo .leftHalf, .wufoo .rightHalf {
+       width: 100% !important;
+       float: none !important;
+     }
+
+     .wufoo .rightHalf {
+       margin-left: 0 !important;
+     }
+
+   }
 
 
 /* ==========================================================================
@@ -3723,4 +3861,3 @@ a#code-labs-one-details {
         line-height: .83em;
     }
 }
-
