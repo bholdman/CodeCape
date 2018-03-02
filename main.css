@@ -834,6 +834,11 @@ blockquote {
   z-index: -1;
 }
 
+#employer-freelancer {
+  background: #252525 url('assets/img/apply-freelancer.jpg');
+  z-index: -1;
+}
+
 .quote .parallax,
 .contact-detail {
     height: 450px;
