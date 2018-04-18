@@ -280,6 +280,13 @@ a:hover {
     color: #1b75ba;
 }
 
+:target {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
 #youth p a:hover {
     color: #fcbc10;
     text-decoration: underline;
@@ -294,6 +301,15 @@ a:hover {
 #techPro .button {
     color: #fff;
     border-color: #fff;
+}
+
+#youth .tab-content .button {
+  color: #fcbc10;
+  border-color: #fcbc10;
+}
+
+#youth .tab-content .button:hover {
+  color: #FFF;
 }
 
 #adult h1 {
@@ -857,6 +873,11 @@ blockquote {
 
 #pall-apply {
     background: #252525 url('assets/img/stephenPic.jpg');
+    z-index: -1;
+}
+
+#pall-youth {
+    background: #252525 url('assets/img/background-youth.jpg');
     z-index: -1;
 }
 
