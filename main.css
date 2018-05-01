@@ -330,6 +330,10 @@ a:hover {
     text-decoration: underline;
 }
 
+#youth p a.button-yellow:hover {
+  color: #FFF;
+}
+
 #adult h4 {
     color: #fff;
 }
