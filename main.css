@@ -2998,6 +2998,10 @@ li.right:before {
     margin: 0 0 20px;
 }
 
+.contact {
+  background-color: #ECF0F1;
+}
+
 
 /* ==========================================================================
    .accordion
