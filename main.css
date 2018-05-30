@@ -884,6 +884,11 @@ blockquote {
     z-index: -1;
 }
 
+#pall-sciencefair {
+    background: #252525 url('assets/img/background-sciencefair.jpg');
+    z-index: -1;
+}
+
 #pall-contact {
     background: #252525 url('assets/img/city.jpg');
     background-attachment: fixed;
@@ -3476,6 +3481,57 @@ input[type="submit"] {
 
    }
 
+/* ==========================================================================
+  Youth Computer Science Fair
+  ========================================================================== */
+
+.jumbotron-sciencefair {
+  background: url('assets/img/background-sciencefair.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.jumbotron-sciencefair .container {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.logo-sciencefair img {
+  width: 300px;
+}
+
+#sciencefair {
+  color: #333;
+}
+
+#sciencefair h2, #sciencefair h3 {
+  color: #1B75BA;
+  font-weight: bold;
+}
+
+#sciencefair h3 {
+  padding-top: 50px;
+  margin-top: 50px;
+  display: block;
+  border-top: 1px solid #FCBC10;
+}
+
+#sciencefair .rules {
+  background-color: #1B75BA;
+  color: #FFF;
+  font-size: 14px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#sciencefair .rules h3 {
+  color: #FFF;
+  border: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+
 
 /* ==========================================================================
    responsive
@@ -3766,6 +3822,35 @@ input[type="submit"] {
     .subfooter .team-social li a {
         margin: 5px;
     }
+}
+
+@media (min-width: 768px) {
+
+  .logo-sciencefair img {
+    width: 500px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .jumbotron-sciencefair .container, .jumbotron-sciencefair .container .description-section {
+    text-align: left;
+  }
+
+  .jumbotron-sciencefair .container .description-section {
+    padding: 0;
+    padding-left: 20px;
+  }
+
+  .jumbotron-sciencefair .container .description-section:after {
+    display: none;
+  }
+
+  .jumbotron-sciencefair .container a#code-labs-one-details {
+    margin-left: 20px !important;
+  }
+
 }
 
 

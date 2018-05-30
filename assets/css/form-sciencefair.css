@@ -1,0 +1,100 @@
+/* ==========================================================================
+   Wufoo Form
+   ========================================================================== */
+
+    html.embed {
+      background-color: transparent;
+    }
+
+    .wufoo li.focused {
+      background-color: transparent;
+    }
+
+   .wufoo input.text, .wufoo textarea.textarea {
+     border: 1px solid #DDD;
+     background-color: #FFF;
+     border-radius: 4px;
+     background-image: none;
+     padding: 10px 4px;
+     font-family: 'Montserrat', sans-serif;
+     color: #555;
+     font-size: 16px;
+   }
+
+   .wufoo input.submit {
+     background-color: #72BE49;
+     color: #fcbc10;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+     font-size: .85rem;
+     text-transform: uppercase;
+     border-radius: 5px;
+     border-color: #fcbc10;
+     background-color: transparent;
+     padding: .7rem 1.5rem;
+     transition: all ease 0.3s;
+     cursor: pointer;
+   }
+
+   .wufoo input.submit:hover, .wufoo input.submit:focus {
+     color: #FFF;
+     background-color: #fcbc10;
+   }
+
+   .wufoo input.file {
+     padding-left: 0;
+     font-size: 14px !important;
+   }
+
+   .wufoo input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+     color: #999;
+   }
+   .wufoo input::-moz-placeholder { /* Firefox 19+ */
+     color: #999;
+   }
+   .wufoo input:-ms-input-placeholder { /* IE 10+ */
+     color: #999;
+   }
+   .wufoo input:-moz-placeholder { /* Firefox 18- */
+     color: #999;
+   }
+
+   .wufoo #fo41li202 label {
+     display: block !important;
+   }
+
+   .wufoo .likert input {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+   }
+
+  .wufoo .likert label {
+    display: inline !important;
+  }
+
+  .likert thead td {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .wufoo .likert tbody tr:hover, .wufoo .likert tbody tr:focus {
+    background-color: #fcbc10 !important;
+  }
+
+  #saveForm {
+    margin: 0 auto;
+  }
+
+   @media (max-width: 991px) {
+
+     .wufoo .leftHalf, .wufoo .rightHalf {
+       width: 100% !important;
+       float: none !important;
+     }
+
+     .wufoo .rightHalf {
+       margin-left: 0 !important;
+     }
+
+   }
