@@ -2,3 +2,5 @@ User-Agent: *
 
 Disallow: /saintfrancis
 Disallow: /saintfrancis.html
+Disallow: /saintfrancis-old
+Disallow: /saintfrancis-old.html
