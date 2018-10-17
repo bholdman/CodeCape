@@ -272,6 +272,7 @@ body,
 
 a {
     color: #fcbc10;
+    transition: all ease 0.2s;
 }
 
 a:hover {
@@ -349,7 +350,7 @@ a:hover {
 }
 
 #techPro p a:hover {
-    color: #27ae60;
+    color: #FFF;
     text-decoration: underline;
 }
 
