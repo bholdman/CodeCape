@@ -1583,6 +1583,24 @@ section::after {
     font-weight: 300;
 }
 
+.camp {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #B6DBFF;
+}
+
+.camp h3 {
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.camp p strong {
+  color: #FFF;
+}
+
+
+
 
 /* ==========================================================================
    parallax quote
@@ -3751,6 +3769,19 @@ input[type="submit"] {
     .navbar-nav {
       margin: 0;
     }
+
+    .coding-camps .col-sm-3 {
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #B6DBFF;
+    }
+
+    .coding-camps .col-sm-3 img {
+      display: block;
+      max-width: 75%;
+      margin: 0 auto;
+    }
+
 
 }
 
