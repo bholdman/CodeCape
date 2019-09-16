@@ -859,6 +859,16 @@ blockquote {
   z-index: -1;
 }
 
+#employer-redletter {
+  background: #252525 url('assets/img/apply-redletter.jpg');
+  z-index: -1;
+}
+
+#employer-rootedweb {
+  background: #252525 url('assets/img/apply-rootedweb.jpg');
+  z-index: -1;
+}
+
 .quote .parallax,
 .contact-detail {
     height: 450px;
@@ -1484,11 +1494,20 @@ section::after {
 
 .red,
 .red .set-circle {
-    border-color: #fcbc10;
+    border-color: #b32025;
 }
 
 .red .set-circle:before {
-    background-color: #fcbc10;
+    background-color: #b32025;
+}
+
+.rooted,
+.rooted .set-circle {
+    border-color: #521229;
+}
+
+.rooted .set-circle:before {
+    background-color: #521229;
 }
 
 .green,
